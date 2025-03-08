@@ -18,7 +18,7 @@ export default defineConfig({
         ],
       },
       { text: 'Build', link: '/build' },
-      { text: 'Trouble', link: '/troubleshooting' },
+      { text: 'Troubleshooting', link: '/troubleshooting' },
       { text: 'FAQ', link: '/faq' },
       { text: 'Resources', link: '/resources' },
       { text: 'Examples', link: '/markdown-examples' },
