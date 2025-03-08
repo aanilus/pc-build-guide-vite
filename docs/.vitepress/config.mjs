@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Awesome Project",
-  description: "A VitePress Site",
+  title: "Steeve's PC Build Guide",
+  description: "How to build a PC",
   base: '/pc-build-guide-vite/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config

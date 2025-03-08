@@ -3,23 +3,23 @@
 layout: home
 
 hero:
-  name: "My Awesome Projectn2"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "Steeve's PC build guide"
+  text: "How to build your own PC"
+  tagline: Start building your own PC today
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Get Started
+      link: /getting-started
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Parts
+      link: /basic-parts
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Parts
+    details: Get the right parts for your build
+  - title: Build
+    details: Get the steps to build your PC
+  - title: Enjoy
+    details: Get suggestions on what to do with your new PC
 ---
 
