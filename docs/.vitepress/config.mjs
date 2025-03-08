@@ -13,8 +13,8 @@ export default defineConfig({
       {
         text: 'Parts',
         items: [
-          { text: 'Basic', link: '/basic' },
-          { text: 'Advanced', link: '/advanced' },
+          { text: 'Basic', link: '/basic-parts' },
+          { text: 'Advanced', link: '/advanced-parts' },
         ],
       },
       { text: 'Build', link: '/build' },
@@ -24,15 +24,40 @@ export default defineConfig({
       { text: 'Examples', link: '/markdown-examples' },
     ],
 
-    // sidebar: [
-    //   {
-    //     text: 'Examples',
-    //     items: [
-    //       { text: 'Markdown Examples', link: '/markdown-examples' },
-    //       { text: 'Runtime API Examples', link: '/api-examples' }
-    //     ]
-    //   }
-    // ],
+    sidebar: [
+      {
+        text: 'Starting',
+        collapsed: true,
+        items: [
+          { text: 'Get Started', link: '/get-started' },
+          {
+            text: 'Parts',
+            collapsed: true,
+            items: [
+              { text: 'Basic', link: '/basic-parts' },
+              { text: 'Advanced', link: '/advanced-parts' },
+            ],
+          },
+        ]
+      },
+      {
+        text: 'Building and TroubleShooting',
+        collapsed: true,
+        items: [
+          { text: 'Build', link: '/build' },
+          { text: 'Troubleshooting', link: '/troubleshooting' },
+        ]
+      },
+      {
+        text: 'Get Help',
+        collapsed: true,
+        items: [
+          { text: 'FAQ', link: '/faq' },
+          { text: 'Resources', link: '/resources' },
+          { text: 'Examples', link: '/markdown-examples' },
+        ]
+      }
+    ],
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
