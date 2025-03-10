@@ -9,3 +9,5 @@ prevent damaging components.
 - A pair of pliers (optional for connectors)
 - Zip-ties and/or velcro straps for cable management
 
+## Parts
+- Make sure you hava the required parts in order to build. Here is list of basic [parts](basic-parts.md) you will need.

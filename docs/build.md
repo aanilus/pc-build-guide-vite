@@ -1,4 +1,3 @@
-
 # Build
 ## II: PSU
 1. Place the PSU in the designated area of your case (either top or bottom, depending on case
