@@ -1,0 +1,1 @@
+import{_ as r,c as t,o as a,ae as o}from"./chunks/framework.Cn5vbMxY.js";const _=JSON.parse('{"title":"Resources","description":"","frontmatter":{},"headers":[],"relativePath":"resources.md","filePath":"resources.md"}'),s={name:"resources.md"};function l(n,e,p,i,c,u){return a(),t("div",null,e[0]||(e[0]=[o("",3)]))}const d=r(s,[["render",l]]);export{_ as __pageData,d as default};
